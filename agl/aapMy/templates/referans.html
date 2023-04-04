@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block body %}
+  
+
+  
+    
+    <div class="aciklama">
+  <h3>Genel Bilgi</h3>
+  <p>Türkiye'li üretici GeoSIG, deprem, sismik, yapısal, dinamik ve statik izleme ve ölçüm çözümleri sunar.</p>
+  <p>
+  ISO Sertifikalı bir şirket olarak AGL, titreşim ve deprem izleme için çeşitli yüksek kaliteli, hassas aletlerin tasarımı ve üretiminde dünya lideridir.  
+  </p>
+</div>
+<div id="isbr" class="isbirlikci container">
+
+{% for i in isortak %}
+<div class="logolari">
+    <img src="{{ i.image.url }}" alt="">
+    <h4>{{ i.name }}</h4>
+  </div>
+{% endfor %}
+    
+</div>
+
+
+{% endblock body %}

@@ -1,0 +1,57 @@
+{% load static %}
+
+
+ 
+
+
+<div class="navbarr container">
+  <span class="logo_navbar"><img height="43px" width="80px" src="{% static 'img/or_logo_1.jpg' %}" alt=""></span>
+  <i class="fa-solid fa-bars d-sm-block d-lg-none" ></i>
+
+  <ul class="navbar_secenekleri ">
+    {% if request.user.is_authenticated  %}
+    <li class="dropp">
+      <div class="dropdown">
+        <button class="btn btn-light dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false">
+         
+          {{ request.user }}
+          
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Hesap Ayarları</a></li>
+          <li><a class="dropdown-item" href="#">Sepet</a></li>
+          <li><a class="dropdown-item" href="{% url 'logoutt' %}">Çıkış Yap</a></li>
+        </ul>
+      </div>
+      </li>
+    {% else %}
+    <li onclick="showForm()">Giriş Yap</li>
+
+    {% endif %}
+   
+    <li class="d-none d-lg-block">Bize Ulaşın</li>
+    <li class="d-none d-lg-block"><a href="{% url 'referans' %}">İş Ortakları</a></li>
+    
+    <li class="d-none d-lg-block">Uygulamalar</li>
+    <li class="d-none d-lg-block"><a href="{% url 'urunSayfasi' %}">Ürünler</a></li>
+    <li class="d-none d-lg-block"><a href="{% url 'index' %}">Ana Sayfa</a></li>
+   
+  </ul>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

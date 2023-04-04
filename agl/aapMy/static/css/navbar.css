@@ -1,0 +1,59 @@
+.navbar_secenekleri a{
+   
+    color: rgb(34, 27, 27);
+     text-decoration: none;
+}
+.navbarr {
+
+    width: 80%;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.526);
+    min-width: 300px;
+    top: 40px;
+     margin-bottom: 70px;
+    position: relative;
+
+}
+/* ! index sayfası navbar  */
+.indexnavbarr {
+    width: 80%;
+    height: 50px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.526);
+    min-width: 300px;
+    top: 40px;
+    left: 10%;
+    position: relative;
+    position: fixed;
+
+
+}
+.logo_navbar {
+
+    font-weight: bold;
+    line-height: 43px;
+    color: rgb(30, 115, 189);
+    position: absolute;
+    margin-left: 30px;
+}
+.navbar_secenekleri {
+    list-style-type: none;
+    margin-right: 10%;
+    line-height: 40px;
+}
+.navbar_secenekleri>li {
+    margin: 0 8px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(34, 27, 27);
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+.navbar_secenekleri>li:hover {
+    background-color: rgba(176, 184, 188, 0.341);
+    box-shadow: 5px 5px 10px rgba(154, 153, 153, 0.614);
+
+}

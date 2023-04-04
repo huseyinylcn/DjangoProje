@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {background-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.fa-solid {
+    font-size: 27px;
+    float: right;
+    margin: 10px 20px;
+    color: rgb(98, 97, 97);
+
+}
+
+.projeler {
+    width: 370px;
+    height: 380px;
+    background-color: rgba(229, 237, 231, 0.878);
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin: -40px 2vw;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    box-shadow: 8px 8px 8px gray;
+}
+.projeler h2{
+    color: rgb(255, 106, 0);
+}
+
+.projeler_komple {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 380px;
+    height: auto;
+    text-align: center;
+}
+
+.proje_image {
+width: 240px;
+margin-top: 10px;
+border-radius: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bilgi{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+}
+.baslik{
+    width: 30%;
+   height: 200px;
+   margin-top: 70px;
+}
+.baslikic{
+    min-width: 230px;
+    text-align: right;
+}
+
+.metin{
+    width: 50%;
+    min-width: 360px;
+    padding: 20px;
+}
+.baslik h1{
+  margin-top: -15px;  
+} 
+.tesis img{
+width: 150px;
+border-radius: 10px;
+
+}
+.tesis{
+    width: 155px;
+    text-align: center;
+}
+.logolari{
+    text-align: center;
+    width: 250px;
+    height: 260px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 30px;
+
+}
+.logolari img{
+    height: 150px; 
+    max-width: 100%;
+    margin-top: 20px;
+
+}
+.logolari h4{
+    margin-top: 10px;
+}
+.isbirlikci{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.is{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    
+    color: rgb(34, 33, 33);
+    line-height: 60px;
+}.referans_baslik{
+    width: 80%;
+    height: 70px;
+    background-color: rgb(202, 195, 195);
+    border-bottom: 3px solid  rgba(12, 12, 12, 0.725);
+    border-top: 3px solid  rgba(0, 0, 0, 0.714);
+    border-radius: 20px;
+    
+    margin: auto;
+    margin-top: 30px;   
+}
+
+.urunler{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+
+}
+.urun0{
+    width:40%;
+    min-width: 330px;
+    min-height: 150px;
+    border: 2px solid rgba(97, 92, 92, 0.67);
+    margin: 10px;
+    text-align: center;
+    background-color: rgba(250, 246, 241, 0.932);
+    border-radius: 5px;
+}
+
+.image{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+.image img{
+    height: 100vh;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 5px 0 0  5px;
+
+
+}
+.urunbtn{
+    width: 80px;
+    height: 34px;
+    border-radius: 15px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: rgba(119, 201, 204, 0.892);
+    color: rgb(246, 246, 246);
+    float: right;
+    margin-right: 10px;
+ 
+}
+.urunbtn:hover{
+    background-color:rgba(203, 220, 220, 0.892) ;
+    color: rgb(108, 112, 158);
+    border: 1px solid grey;
+}
+.urun0 p{
+    text-align: center;
+max-height: 100px;
+
+}
+
+.navurun{
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+    background-color: rgb(250, 130, 87);
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    display: block;
+  margin: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+transition: 0.5s;
+    text-align: center;
+    text-decoration: none;
+}
+.navurun:hover{
+    background-color: rgb(223, 76, 22);
+    color: rgb(255, 255, 255);
+}
+
+
+
+#chartContainer {
+    width: 80%;
+    
+    overflow-x: scroll;
+    border: 1px solid rgb(225, 203, 203);
+    margin: auto;
+    border-radius: 10px;
+
+   
+ }
+ 
+ #myChart {
+     min-width: 1400px;
+    max-height: 300px;
+ }
+ #chartContainer::-webkit-scrollbar {
+    width: 80px;
+}
+#chartContainer::-webkit-scrollbar-thumb {
+    max-width: 8px;
+    background-color: rgb(239, 239, 247);
+    border-radius: 10px;
+    border: 1px solid gray;
+   
+}
+
+
+.aciklama{
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+}
+#my_dataviz{
+    background-color: rgba(155, 152, 152, 0.549);
+    border-radius: 20px;
+}
+.dropp{
+ float: right;
+}
+.loginn{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 700px;
+    transition: 2s;
+    
+
+}
+#none{
+    cursor: pointer;
+    float: right;
+    width: 20px;
+    height: 20px;
+    display: block;
+    transition: 0.7s;
+}
+#none:hover{
+    font-size: 20px;
+}

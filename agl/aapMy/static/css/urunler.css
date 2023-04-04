@@ -1,0 +1,20 @@
+.examine{
+    padding: 10px 30px;
+    border: none;
+    box-shadow: 1px 1px 2px gray;
+    background-color: ghostwhite;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+}
+.examine:hover{
+    padding: 13px 35px;
+    box-shadow: 3px 3px 4px gray;
+    color: rgb(40, 38, 38);
+    transition: 0.5s;
+}
